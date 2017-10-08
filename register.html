@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset = "utf-8">
+		<title>Register</title>
+</head>
+
+<body>
+<table border = "0">
+<h1>使用者註冊<h1>
+
+<form action="/action_page.php">
+<tr>
+	<td > 帳號 </td>
+	<td><input type="text" name="帳號" value="請輸入您的帳號"></td>
+</tr>
+<tr>
+	<td>  密碼</td> 
+	<td><input type="text" name="密碼" value=""> </td> 
+</tr>
+<tr>
+	<td> 電子郵件</td>
+	<td> <input type="text" name="電子郵件"value="請輸入您的電子郵件"> </td>
+</tr> 
+<tr>
+	<td> 生日</td> 
+	<td><input type="text" name="生日"value="年/月/日"></td>
+</tr>   
+<tr>
+	<td> 性別</td> 
+  <td><input type="radio" name="gender" value="male" checked> 男
+  <input type="radio" name="gender" value="female"> 女
+  <input type="radio" name="gender" value="other"> 其它 </td>
+</tr>    
+<tr>
+	<td> 喜好</td>
+  <td><label>
+		<input name = "interest" type = "checkbox" value = "打球">打球</label>
+  <label>
+		<input name = "interest" type = "checkbox" value = "打電動">打電動</label>
+  <label>
+		<input name = "interest" type = "checkbox" value = "購物">購物</label>
+  <label>
+		<input name = "interest" type = "checkbox" value = "其它">其它</label></td>
+</tr> 
+<tr>
+	<td>年級</td>
+   <td><select name="年級">
+    <option value="大一">大一</option>
+    <option value="大二">大二</option>
+    <option value="大三">大三</option>
+    <option value="大四">大四</option>
+	<option value="其它">其它</option>
+  </select></td>
+</tr>
+<tr>
+<td>
+</td>
+<td><input type="submit" value="送出" >
+    <input type="submit" value="重設" >
+</td>
+</tr>     
+
+  
+</form> 
+
+</table>
+</body>
+</html>
